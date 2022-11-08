@@ -11,10 +11,20 @@
    margin-bottom: 10px;
 }
 
+.header .header_banner{
+   display: flex;
+   justify-content: space-between;
+}
+
 .header h1.header_title{
    color: rgb(46, 5, 84);
    font-weight: bolder;
 }
+
+.header img.header_logo{
+   max-height: 100px;
+}
+
 
 .header p.header_text{
    color: rgb(46, 5, 84);
