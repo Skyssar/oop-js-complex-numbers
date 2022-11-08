@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Herencia JS</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <!-- <script src="./complexNumbers.js" type="module"></script> -->
+   <script src="./index.js" type="module"></script>
+</head>
+<body>
+   <div class="container mt">  
+      <div class="header">
+         <h1 class="header_title">Operaciones con números complejos</h1>
+         <small>Por: NOMBRES | INTEGRANTES </small>
+         <hr>
+         <p class="header_text">Texto</p>
+      </div>
+      <div class="body_card">
+         <div class="input_container">
+            <div>
+               Número 1: &nbsp;
+            </div>
+            <div>
+               <input type="number" id="cxNum1Real" > 
+               <span>+</span> 
+               <input type="number" id="cxNum1Imaginary"> 
+               <span>i</span> 
+            </div>
+         </div>
+         <div class="input_container">
+            <div>
+               Número 2: &nbsp;
+            </div>
+            <div>
+               <input type="number" id="cxNum2Real"> 
+               <span>+</span> 
+               <input type="number" id="cxNum2Imaginary"> 
+               <span>i</span> 
+            </div>
+         </div>
+         <div class="button_group">
+            <button class="btn btn-primary" id="sumBtn">Sumar</button>
+            <button class="btn btn-danger" id="subsBtn">Restar</button>
+            <button class="btn btn-warning" id="multBtn">Multiplicar</button>
+            <button class="btn btn-success" id="divBtn">Dividir</button>
+         </div>
+         <div>
+            <span>Resultado: &nbsp;</span>
+            <span id="result"></span>
+         </div>
+      </div>
+      <div>
+         <p>Otras operaciones</p>
+      </div>
+      <div class="body_card">
+         <div class="input_container">
+            <div>
+               Ingrese un número complejo: &nbsp;
+            </div>
+            <div>
+               <input type="number" id="cxNum3Real" > 
+               <span>+</span> 
+               <input type="number" id="cxNum3Imaginary"> 
+               <span>i</span> 
+            </div>
+         </div>
+         <div class="button_group">
+            <button class="btn btn-info" id="modBtn">Módulo</button>
+            <button class="btn btn-dark" id="argBtn">Argumento</button>
+            <button class="btn btn-secondary" id="conjBtn">Conjugado</button>
+         </div>
+         <div>
+            <span>Resultado: &nbsp;</span>
+            <span id="result2"></span>
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>
